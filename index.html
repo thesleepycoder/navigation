@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
     <title>OnePage</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
@@ -35,6 +35,124 @@
     <div class="home" id="home">
         <h1>Logo</h1>
         <p>Company SubLine</p>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="about" id="about">
+        <div class="about-container">
+            <h1>About Us</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut 
+                sed vulputate orci. Maecenas porta pellentesque ex, id lobortis 
+                velit fringilla et. Quisque nec quam lobortis, mattis nisi ac, 
+                convallis ex. Vestibulum placerat dignissim arcu, in vehicula elit 
+                iaculis vitae. Phasellus in tortor vulputate, dignissim orci 
+                consectetur, condimentum erat. Vestibulum a mattis ante. 
+                Vestibulum enim neque, fringilla et metus et, posuere dictum 
+                purus. Nullam at tincidunt ante, ac efficitur enim. Morbi ultrices 
+                mauris nisi, sit amet laoreet libero auctor et. Ut porta nulla nec 
+                risus blandit, et venenatis purus dignissim. Pellentesque luctus, 
+                lorem nec varius convallis, risus dui congue libero, pellentesque 
+                hendrerit ligula lacus ac leo.
+            </p>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="projects" id="projects">
+        <div class="column-container">
+            <div class="column">
+                <h1>Content 1</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed 
+                    vulputate orci. Maecenas porta pellentesque ex, id lobortis 
+                    velit fringilla et. Quisque nec quam lobortis, mattis nisi ac, 
+                </p>
+
+            </div>
+            
+            <div class="column">
+                <h1>Content 2</h1>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>consectetur adipiscing elit</li>
+                    <li>velit fringilla et. Quisque nec</li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <h1>Content 3</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed 
+                    vulputate orci. Maecenas porta pellentesque ex, id lobortis 
+                    velit fringilla et.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="carousel" id="carousel">
+
+        <div class="carousel-container">
+            <input type="radio" name="images" id="img-1" checked />
+            <input type="radio" name="images" id="img-2" />
+            <input type="radio" name="images" id="img-3" />
+            <input type="radio" name="images" id="img-4" />
+            <input type="radio" name="images" id="img-5" />
+            <input type="radio" name="images" id="img-6" />
+
+            <div class="slide-img" id="one">
+                <img src="https://picsum.photos/1000/600?random=1">
+                <label for="img-6" class="prev-arrow"><span>&#x2039;</span></label>
+                <label for="img-2" class="next-arrow"><span>&#x203a;</span></label>
+            </div>
+            <div class="slide-img" id="two">
+                <img src="https://picsum.photos/1000/600?random=2">
+                <label for="img-1" class="prev-arrow"><span>&#x2039;</span></label>
+                <label for="img-3" class="next-arrow"><span>&#x203a;</span></label>
+            </div>
+            <div class="slide-img" id="three">
+                <img src="https://picsum.photos/1000/600?random=3">
+                <label for="img-2" class="prev-arrow"><span>&#x2039;</span></label>
+                <label for="img-4" class="next-arrow"><span>&#x203a;</span></label>
+            </div>
+            <div class="slide-img" id="four">
+                <img src="https://picsum.photos/1000/600?random=4">
+                <label for="img-3" class="prev-arrow"><span>&#x2039;</span></label>
+                <label for="img-5" class="next-arrow"><span>&#x203a;</span></label>
+            </div>
+            <div class="slide-img" id="five">
+                <img src="https://picsum.photos/1000/600?random=5">
+                <label for="img-4" class="prev-arrow"><span>&#x2039;</span></label>
+                <label for="img-6" class="next-arrow"><span>&#x203a;</span></label>
+            </div>
+            <div class="slide-img" id="six">
+                <img src="https://picsum.photos/1000/600?random=6">
+                <label for="img-5" class="prev-arrow"><span>&#x2039;</span></label>
+                <label for="img-1" class="next-arrow"><span>&#x203a;</span></label>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="contact" id="contact">
+        <div class="contact-form">
+            <form action="">
+                <h1>Contact Us</h1>
+                <input type="text" name="" id="" placeholder="Your Name" class="input-field">
+                <input type="text" name="" id="" placeholder="Your Email" class="input-field">
+                <input type="text" name="" id="" placeholder="Your Message" class="input-field">
+                <textarea name="" id="" rows="4" placeholder="Your Message" class="input-field"></textarea>
+                <input type="submit" value="Submit">                
+            </form>
+        </div>
     </div>
 
 </body>
